@@ -1,5 +1,6 @@
 name: couldai_user_app
-description: "A new Flutter project."
+# Updated project name and description
+description: "A Flutter app to manage class attendance with persistent storage"
 publish_to: 'none' 
 version: 1.0.0+1
 environment:
@@ -9,6 +10,7 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.8
   supabase_flutter: ^2.9.1
+  shared_preferences: ^2.0.15
 
 dev_dependencies:
   flutter_test:
